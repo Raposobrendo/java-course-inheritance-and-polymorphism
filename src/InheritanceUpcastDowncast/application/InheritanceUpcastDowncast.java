@@ -8,7 +8,8 @@ public class InheritanceUpcastDowncast {
     public static void main(String[] Args) {
 
 
-        Account acc = new Account(1001, "Brendo", 2000.0);
+        // Account acc = new Account(1001, "Brendo", 2000.0);
+        // With Account class being "abstract", it cannot be directly used.
         BusinessAccount bacc = new BusinessAccount(1002, "Nicolas", 10000.0, 2000.0 );
 
         // UPCASTING
